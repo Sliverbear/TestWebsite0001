@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Content\AboutMe\Picture\Bill Gate.jpg" />
+    <Content Include="Content\AboutMe\Picture\portfolio-1.jpg" />
+    <Content Include="Content\AboutMe\Picture\portfolio-2.jpg" />
+    <Content Include="Content\AboutMe\Picture\portfolio-3.jpg" />
+    <Content Include="Content\AboutMe\Picture\portfolio-4.jpg" />
+    <Content Include="Content\AboutMe\Picture\SteveJob.jpg" />
+    <Content Include="Content\AboutMe\Picture\TedBear.jpg" />
+    <Content Include="Content\AboutMe\Picture\testimonial-1.jpg" />
+    <Content Include="Content\Layui\css\layui.css" />
+    <Content Include="Content\Layui\css\modules\code.css" />
+    <Content Include="Content\Layui\css\modules\laydate\default\laydate.css" />
+    <Content Include="Content\Layui\css\modules\layer\default\icon-ext.png" />
+    <Content Include="Content\Layui\css\modules\layer\default\icon.png" />
+    <Content Include="Content\Layui\css\modules\layer\default\layer.css" />
+    <Content Include="Content\Layui\css\modules\layer\default\loading-0.gif" />
+    <Content Include="Content\Layui\css\modules\layer\default\loading-1.gif" />
+    <Content Include="Content\Layui\css\modules\layer\default\loading-2.gif" />
+    <Content Include="Content\Layui\font\iconfont.eot" />
+    <Content Include="Content\Layui\font\iconfont.svg" />
+    <Content Include="Content\Layui\font\iconfont.ttf" />
+    <Content Include="Content\Layui\font\iconfont.woff" />
+    <Content Include="Content\Layui\font\iconfont.woff2" />
+    <Content Include="Content\Layui\layui.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Login\" />
+    <Folder Include="Views\SearchProduct\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVCEntity\MVCEntity.csproj" />
+    <ProjectReference Include="..\MVCLogic\MVCLogic.csproj" />
+  </ItemGroup>
+
+</Project>
